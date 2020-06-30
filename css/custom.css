@@ -1,0 +1,163 @@
+.chartidy-table-wrapper {
+    position: relative;
+    padding-top: 80px;
+}
+
+
+.chartidy-dialog {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.chartidy-dialog-wrapper {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background: #1919192e;
+}
+
+
+.chartidy-dialog-wrapper.active {
+    display: flex;
+}
+
+.chartidy-dialog .chartidy-dialog-body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.chartidy-dialog .chartidy-dialog-body .chartidy-desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.chartidy-dialog .chartidy-dialog-body .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+
+.chartidy-dialog .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chartidy-dialog .buttons button {
+    padding: 8px 15px;
+    background: linear-gradient(90deg, rgba(93, 67, 200, 1) 0%, rgba(65, 70, 246, 1) 100%);
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+
+.chartidy-dialog .buttons button.outlined {
+    background: #fff;
+    color: #5b3bcd;
+    border: 1px solid #5b3bcd;
+}
+
+
+.chartidy-dialog .chartidy-dialog-body .inputs .chartidy-input {
+    margin-right: 10px;
+}
+
+.chartidy-dialog .chartidy-dialog-body .inputs .chartidy-input:last-child {
+    margin-right: 0px;
+}
+
+
+.chartidy-dialog .chartidy-dialog-body .inputs .chartidy-input input {
+    padding: 10px;
+    display: block;
+    width: 120px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid #e8e8e8;
+    background: #f8f8f8;
+    border-radius: 3px;
+}
+
+.chartidy-dialog .chartidy-dialog-body .inputs .chartidy-input .input-label {
+    margin-bottom: 4px;
+    display: block;
+}
+
+.chartidy-dialog .chartidy-dialog-body .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chartidy-visualize-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: #ccc;
+    background: linear-gradient(90deg, rgba(93, 67, 200, 1) 0%, rgba(65, 70, 246, 1) 100%);
+    border: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.chartidy-visualize-btn .top {
+    display: flex;
+    align-items: center;
+}
+
+.chartidy-visualize-btn .top .icon {
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.chartidy-visualize-btn .top .icon svg {
+    fill: #fff;
+}
+
+.chartidy-visualize-btn .top span {
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+
+.chartidy-visualize-btn .btn-small-text {
+    font-size: 12px;
+    color: #fff550;
+}
+
+.chartidy-input-error {
+    color: red;
+    padding: 3px 0px 0px 5px;
+}
+
+.chartidy-chart-wrapper {
+    display: none;
+}
+
+.chartidy-chart-wrapper.active {
+    display: block;
+}
